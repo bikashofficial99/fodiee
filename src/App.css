@@ -1,0 +1,95 @@
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 90px;
+
+}
+*{
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reem Kufi", sans-serif !important;
+
+}
+.navbar-menu-container{
+  display: none;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.navbar-links-container a{
+  margin-right: 3rem; 
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+}
+.primary-button{
+  padding: 0.9rem 1.75rem;
+  background-color: white;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+
+}
+.navbar-cart-icon {
+  font-size: 1.15rem;
+
+}
+.primary-button:hover {
+  background-color: rgb(234, 234, 234);
+}
+.navbar-menu-container svg {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.home-banner-container {
+  position: relative;
+  display: flex;
+  padding-top: 3rem;
+}
+.home-bannerImage-container {
+position: absolute;
+max-width: 700px;
+top: -100px;
+z-index: -2;
+right: -170px;
+
+}
+.home-text-section {
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.primary-heading {
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: #4c4c4c;
+  /* line-height: 5rem; */
+  max-width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
